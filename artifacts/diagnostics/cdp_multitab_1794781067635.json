@@ -1,0 +1,1701 @@
+{
+  "startedAt": "2026-11-15T22:17:45.856Z",
+  "node": "v22.18.0",
+  "platform": "win32 10.0.26300",
+  "chrome": {
+    "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "launchArgs": [
+      "--headless=new",
+      "--no-sandbox",
+      "--disable-gpu",
+      "--no-first-run",
+      "--no-default-browser-check",
+      "--disable-extensions",
+      "--allow-file-access-from-files",
+      "--disable-background-timer-throttling",
+      "--disable-backgrounding-occluded-windows",
+      "--disable-renderer-backgrounding",
+      "--remote-debugging-pipe",
+      "--user-data-dir=<tmp>",
+      "--window-size=1280,800",
+      "about:blank"
+    ],
+    "version": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/157.0.8103.52",
+      "revision": "@0985600c06a688b9c669e74afde7dacd5aaed047",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "jsVersion": "15.7.112.23"
+    },
+    "commandLine": "no disponible: Command line not returned because --enable-automation not set.",
+    "exitCode": 0,
+    "killed": false
+  },
+  "server": {
+    "address": {
+      "address": "127.0.0.1",
+      "family": "IPv4",
+      "port": 60119
+    },
+    "listening": true
+  },
+  "nodeSelfCheck": {
+    "ok": true,
+    "status": 200
+  },
+  "cases": {
+    "A_rootTab": {
+      "url": "http://127.0.0.1:60119/index.html",
+      "targetId": "917FE72EB03330E1B334D4EC916AC4BE",
+      "sessionId": "EA4E1C2EFEA50D66DA00D38916C45A7A",
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D",
+      "navigate": {
+        "frameId": "917FE72EB03330E1B334D4EC916AC4BE",
+        "loaderId": "082540D364599344258298D170454654",
+        "isDownload": false
+      },
+      "mainFrameId": "917FE72EB03330E1B334D4EC916AC4BE",
+      "mainLoaderId": "082540D364599344258298D170454654",
+      "result": {
+        "ok": true,
+        "state": {
+          "href": "http://127.0.0.1:60119/index.html",
+          "origin": "http://127.0.0.1:60119",
+          "pathname": "/index.html",
+          "hash": "",
+          "readyState": "complete",
+          "appReady": true
+        },
+        "waitedMs": 92
+      },
+      "events": [
+        {
+          "dt": 28,
+          "method": "Page.lifecycleEvent",
+          "frameId": "917FE72EB03330E1B334D4EC916AC4BE",
+          "loaderId": "A8410205B4D999D802D3F2A24ED8D827",
+          "name": "commit"
+        },
+        {
+          "dt": 28,
+          "method": "Page.lifecycleEvent",
+          "frameId": "917FE72EB03330E1B334D4EC916AC4BE",
+          "loaderId": "A8410205B4D999D802D3F2A24ED8D827",
+          "name": "DOMContentLoaded"
+        },
+        {
+          "dt": 28,
+          "method": "Page.lifecycleEvent",
+          "frameId": "917FE72EB03330E1B334D4EC916AC4BE",
+          "loaderId": "A8410205B4D999D802D3F2A24ED8D827",
+          "name": "load"
+        },
+        {
+          "dt": 28,
+          "method": "Page.lifecycleEvent",
+          "frameId": "917FE72EB03330E1B334D4EC916AC4BE",
+          "loaderId": "A8410205B4D999D802D3F2A24ED8D827",
+          "name": "networkAlmostIdle"
+        },
+        {
+          "dt": 28,
+          "method": "Page.lifecycleEvent",
+          "frameId": "917FE72EB03330E1B334D4EC916AC4BE",
+          "loaderId": "A8410205B4D999D802D3F2A24ED8D827",
+          "name": "networkIdle"
+        },
+        {
+          "dt": 33,
+          "method": "Page.frameStartedLoading",
+          "frameId": "917FE72EB03330E1B334D4EC916AC4BE"
+        },
+        {
+          "dt": 33,
+          "method": "Network.requestWillBeSent",
+          "requestId": "082540D364599344258298D170454654",
+          "loaderId": "082540D364599344258298D170454654",
+          "url": "http://127.0.0.1:60119/index.html",
+          "type": "Document"
+        },
+        {
+          "dt": 39,
+          "method": "Network.responseReceived",
+          "requestId": "082540D364599344258298D170454654",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/index.html",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 45,
+          "method": "Page.lifecycleEvent",
+          "frameId": "917FE72EB03330E1B334D4EC916AC4BE",
+          "loaderId": "082540D364599344258298D170454654",
+          "name": "init"
+        },
+        {
+          "dt": 45,
+          "method": "Page.frameNavigated",
+          "frameId": "917FE72EB03330E1B334D4EC916AC4BE",
+          "parentId": null,
+          "loaderId": "082540D364599344258298D170454654",
+          "url": "http://127.0.0.1:60119/index.html",
+          "urlFragment": ""
+        },
+        {
+          "dt": 57,
+          "method": "Network.requestWillBeSent",
+          "requestId": "9448.2",
+          "loaderId": "082540D364599344258298D170454654",
+          "url": "http://127.0.0.1:60119/style.css",
+          "type": "Stylesheet"
+        },
+        {
+          "dt": 57,
+          "method": "Network.requestWillBeSent",
+          "requestId": "9448.3",
+          "loaderId": "082540D364599344258298D170454654",
+          "url": "http://127.0.0.1:60119/app.js",
+          "type": "Script"
+        },
+        {
+          "dt": 59,
+          "method": "Network.responseReceived",
+          "requestId": "9448.2",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/style.css",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 72,
+          "method": "Network.responseReceived",
+          "requestId": "9448.3",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/app.js",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 72,
+          "method": "Network.requestWillBeSent",
+          "requestId": "9448.6",
+          "loaderId": "082540D364599344258298D170454654",
+          "url": "http://127.0.0.1:60119/crm.js",
+          "type": "Script"
+        },
+        {
+          "dt": 72,
+          "method": "Network.requestWillBeSent",
+          "requestId": "9448.7",
+          "loaderId": "082540D364599344258298D170454654",
+          "url": "http://127.0.0.1:60119/arm.js",
+          "type": "Script"
+        },
+        {
+          "dt": 72,
+          "method": "Network.requestWillBeSent",
+          "requestId": "9448.8",
+          "loaderId": "082540D364599344258298D170454654",
+          "url": "http://127.0.0.1:60119/auth.js",
+          "type": "Script"
+        },
+        {
+          "dt": 72,
+          "method": "Network.requestWillBeSent",
+          "requestId": "9448.9",
+          "loaderId": "082540D364599344258298D170454654",
+          "url": "http://127.0.0.1:60119/palette.js",
+          "type": "Script"
+        },
+        {
+          "dt": 72,
+          "method": "Network.requestWillBeSent",
+          "requestId": "9448.10",
+          "loaderId": "082540D364599344258298D170454654",
+          "url": "http://127.0.0.1:60119/turnos.js",
+          "type": "Script"
+        },
+        {
+          "dt": 82,
+          "method": "Network.responseReceived",
+          "requestId": "9448.6",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/crm.js",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 82,
+          "method": "Page.lifecycleEvent",
+          "frameId": "917FE72EB03330E1B334D4EC916AC4BE",
+          "loaderId": "082540D364599344258298D170454654",
+          "name": "firstMeaningfulPaintCandidate"
+        },
+        {
+          "dt": 82,
+          "method": "Page.lifecycleEvent",
+          "frameId": "917FE72EB03330E1B334D4EC916AC4BE",
+          "loaderId": "082540D364599344258298D170454654",
+          "name": "firstPaint"
+        },
+        {
+          "dt": 82,
+          "method": "Network.responseReceived",
+          "requestId": "9448.7",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/arm.js",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 82,
+          "method": "Network.requestWillBeSent",
+          "requestId": "9448.11",
+          "loaderId": "082540D364599344258298D170454654",
+          "url": "http://127.0.0.1:60119/automations.js",
+          "type": "Script"
+        },
+        {
+          "dt": 82,
+          "method": "Network.responseReceived",
+          "requestId": "9448.8",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/auth.js",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 82,
+          "method": "Network.responseReceived",
+          "requestId": "9448.9",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/palette.js",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 85,
+          "method": "Network.responseReceived",
+          "requestId": "9448.10",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/turnos.js",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 88,
+          "method": "Network.responseReceived",
+          "requestId": "9448.11",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/automations.js",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 94,
+          "method": "Page.lifecycleEvent",
+          "frameId": "917FE72EB03330E1B334D4EC916AC4BE",
+          "loaderId": "082540D364599344258298D170454654",
+          "name": "DOMContentLoaded"
+        },
+        {
+          "dt": 125,
+          "method": "Page.lifecycleEvent",
+          "frameId": "917FE72EB03330E1B334D4EC916AC4BE",
+          "loaderId": "082540D364599344258298D170454654",
+          "name": "load"
+        },
+        {
+          "dt": 126,
+          "method": "Page.frameStoppedLoading",
+          "frameId": "917FE72EB03330E1B334D4EC916AC4BE"
+        },
+        {
+          "dt": 132,
+          "method": "Network.requestWillBeSent",
+          "requestId": "9448.12",
+          "loaderId": "082540D364599344258298D170454654",
+          "url": "http://127.0.0.1:60119/favicon.ico",
+          "type": "Other"
+        }
+      ],
+      "serverHits": [
+        {
+          "dt": 35,
+          "method": "GET",
+          "path": "/index.html",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 50,
+          "method": "GET",
+          "path": "/style.css",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 53,
+          "method": "GET",
+          "path": "/app.js",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 66,
+          "method": "GET",
+          "path": "/crm.js",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 69,
+          "method": "GET",
+          "path": "/arm.js",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 73,
+          "method": "GET",
+          "path": "/auth.js",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 76,
+          "method": "GET",
+          "path": "/palette.js",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 79,
+          "method": "GET",
+          "path": "/turnos.js",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 82,
+          "method": "GET",
+          "path": "/automations.js",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 131,
+          "method": "GET",
+          "path": "/favicon.ico",
+          "status": 404,
+          "remote": "127.0.0.1"
+        }
+      ]
+    },
+    "B_createTargetFinalUrl": {
+      "url": "http://127.0.0.1:60119/index.html#pantalla-turnos",
+      "targetId": "9776203FF69FE6B8EC475AEC62F8372F",
+      "sessionId": "7649AF79D4514F272BBB93E60A846189",
+      "infoBeforeAttach": {
+        "targetId": "9776203FF69FE6B8EC475AEC62F8372F",
+        "type": "page",
+        "title": "",
+        "url": "http://127.0.0.1:60119/index.html#pantalla-turnos",
+        "attached": false,
+        "canAccessOpener": false,
+        "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+      },
+      "infoAfterAttach": {
+        "targetId": "9776203FF69FE6B8EC475AEC62F8372F",
+        "type": "page",
+        "title": "Clínica · Espacio de atención",
+        "url": "http://127.0.0.1:60119/index.html#pantalla-turnos",
+        "attached": true,
+        "canAccessOpener": false,
+        "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+      },
+      "mainFrameId": "9776203FF69FE6B8EC475AEC62F8372F",
+      "mainLoaderId": "583E1F1822616BB76D89C574013588AC",
+      "result": {
+        "ok": true,
+        "state": {
+          "href": "http://127.0.0.1:60119/index.html#pantalla-turnos",
+          "origin": "http://127.0.0.1:60119",
+          "pathname": "/index.html",
+          "hash": "#pantalla-turnos",
+          "readyState": "complete",
+          "appReady": true
+        },
+        "waitedMs": 53
+      },
+      "events": [
+        {
+          "dt": 45,
+          "method": "Network.responseReceived",
+          "requestId": "21268.6",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/crm.js",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 45,
+          "method": "Network.responseReceived",
+          "requestId": "21268.8",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/auth.js",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 47,
+          "method": "Network.responseReceived",
+          "requestId": "21268.7",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/arm.js",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 47,
+          "method": "Network.requestWillBeSent",
+          "requestId": "21268.11",
+          "loaderId": "583E1F1822616BB76D89C574013588AC",
+          "url": "http://127.0.0.1:60119/automations.js",
+          "type": "Script"
+        },
+        {
+          "dt": 47,
+          "method": "Network.responseReceived",
+          "requestId": "21268.9",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/palette.js",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 48,
+          "method": "Page.lifecycleEvent",
+          "frameId": "9776203FF69FE6B8EC475AEC62F8372F",
+          "loaderId": "583E1F1822616BB76D89C574013588AC",
+          "name": "commit"
+        },
+        {
+          "dt": 48,
+          "method": "Network.responseReceived",
+          "requestId": "21268.10",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/turnos.js",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 65,
+          "method": "Network.responseReceived",
+          "requestId": "21268.11",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/automations.js",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 71,
+          "method": "Page.lifecycleEvent",
+          "frameId": "9776203FF69FE6B8EC475AEC62F8372F",
+          "loaderId": "583E1F1822616BB76D89C574013588AC",
+          "name": "DOMContentLoaded"
+        },
+        {
+          "dt": 72,
+          "method": "Page.lifecycleEvent",
+          "frameId": "9776203FF69FE6B8EC475AEC62F8372F",
+          "loaderId": "583E1F1822616BB76D89C574013588AC",
+          "name": "load"
+        },
+        {
+          "dt": 93,
+          "method": "Page.frameStoppedLoading",
+          "frameId": "9776203FF69FE6B8EC475AEC62F8372F"
+        }
+      ],
+      "serverHits": [
+        {
+          "dt": 6,
+          "method": "GET",
+          "path": "/index.html",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 22,
+          "method": "GET",
+          "path": "/style.css",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 24,
+          "method": "GET",
+          "path": "/app.js",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 34,
+          "method": "GET",
+          "path": "/crm.js",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 36,
+          "method": "GET",
+          "path": "/arm.js",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 38,
+          "method": "GET",
+          "path": "/auth.js",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 40,
+          "method": "GET",
+          "path": "/palette.js",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 42,
+          "method": "GET",
+          "path": "/turnos.js",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 45,
+          "method": "GET",
+          "path": "/automations.js",
+          "status": 200,
+          "remote": "127.0.0.1"
+        }
+      ]
+    },
+    "C_blankThenNavigate": {
+      "url": "http://127.0.0.1:60119/index.html#pantalla-turnos",
+      "targetId": "4FD0BE505169A600E68042C4373F0982",
+      "sessionId": "B0448E7BFCD4D6917A8D12360129FAA6",
+      "infoBeforeAttach": {
+        "targetId": "4FD0BE505169A600E68042C4373F0982",
+        "type": "page",
+        "title": "about:blank",
+        "url": "about:blank",
+        "attached": false,
+        "canAccessOpener": false,
+        "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+      },
+      "infoAfterNav": {
+        "targetId": "4FD0BE505169A600E68042C4373F0982",
+        "type": "page",
+        "title": "Clínica · Espacio de atención",
+        "url": "http://127.0.0.1:60119/index.html#pantalla-turnos",
+        "attached": true,
+        "canAccessOpener": false,
+        "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+      },
+      "navigate": {
+        "frameId": "4FD0BE505169A600E68042C4373F0982",
+        "loaderId": "C7F13A2E3782E1AC17ABA514D8C05F33",
+        "isDownload": false
+      },
+      "result": {
+        "ok": true,
+        "state": {
+          "href": "http://127.0.0.1:60119/index.html#pantalla-turnos",
+          "origin": "http://127.0.0.1:60119",
+          "pathname": "/index.html",
+          "hash": "#pantalla-turnos",
+          "readyState": "complete",
+          "appReady": true
+        },
+        "waitedMs": 68
+      },
+      "events": [
+        {
+          "dt": 29,
+          "method": "Page.lifecycleEvent",
+          "frameId": "4FD0BE505169A600E68042C4373F0982",
+          "loaderId": "A15D3C64E843C04EBDA97BB83B672AA1",
+          "name": "commit"
+        },
+        {
+          "dt": 29,
+          "method": "Page.lifecycleEvent",
+          "frameId": "4FD0BE505169A600E68042C4373F0982",
+          "loaderId": "A15D3C64E843C04EBDA97BB83B672AA1",
+          "name": "DOMContentLoaded"
+        },
+        {
+          "dt": 29,
+          "method": "Page.lifecycleEvent",
+          "frameId": "4FD0BE505169A600E68042C4373F0982",
+          "loaderId": "A15D3C64E843C04EBDA97BB83B672AA1",
+          "name": "load"
+        },
+        {
+          "dt": 29,
+          "method": "Page.lifecycleEvent",
+          "frameId": "4FD0BE505169A600E68042C4373F0982",
+          "loaderId": "A15D3C64E843C04EBDA97BB83B672AA1",
+          "name": "networkAlmostIdle"
+        },
+        {
+          "dt": 29,
+          "method": "Page.lifecycleEvent",
+          "frameId": "4FD0BE505169A600E68042C4373F0982",
+          "loaderId": "A15D3C64E843C04EBDA97BB83B672AA1",
+          "name": "networkIdle"
+        },
+        {
+          "dt": 33,
+          "method": "Page.frameStartedLoading",
+          "frameId": "4FD0BE505169A600E68042C4373F0982"
+        },
+        {
+          "dt": 33,
+          "method": "Network.requestWillBeSent",
+          "requestId": "C7F13A2E3782E1AC17ABA514D8C05F33",
+          "loaderId": "C7F13A2E3782E1AC17ABA514D8C05F33",
+          "url": "http://127.0.0.1:60119/index.html",
+          "type": "Document"
+        },
+        {
+          "dt": 38,
+          "method": "Network.responseReceived",
+          "requestId": "C7F13A2E3782E1AC17ABA514D8C05F33",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/index.html",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 42,
+          "method": "Page.lifecycleEvent",
+          "frameId": "4FD0BE505169A600E68042C4373F0982",
+          "loaderId": "C7F13A2E3782E1AC17ABA514D8C05F33",
+          "name": "init"
+        },
+        {
+          "dt": 42,
+          "method": "Page.frameNavigated",
+          "frameId": "4FD0BE505169A600E68042C4373F0982",
+          "parentId": null,
+          "loaderId": "C7F13A2E3782E1AC17ABA514D8C05F33",
+          "url": "http://127.0.0.1:60119/index.html",
+          "urlFragment": "#pantalla-turnos"
+        },
+        {
+          "dt": 49,
+          "method": "Network.requestWillBeSent",
+          "requestId": "28544.2",
+          "loaderId": "C7F13A2E3782E1AC17ABA514D8C05F33",
+          "url": "http://127.0.0.1:60119/style.css",
+          "type": "Stylesheet"
+        },
+        {
+          "dt": 49,
+          "method": "Network.requestWillBeSent",
+          "requestId": "28544.3",
+          "loaderId": "C7F13A2E3782E1AC17ABA514D8C05F33",
+          "url": "http://127.0.0.1:60119/app.js",
+          "type": "Script"
+        },
+        {
+          "dt": 50,
+          "method": "Network.responseReceived",
+          "requestId": "28544.2",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/style.css",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 53,
+          "method": "Network.responseReceived",
+          "requestId": "28544.3",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/app.js",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 63,
+          "method": "Network.requestWillBeSent",
+          "requestId": "28544.6",
+          "loaderId": "C7F13A2E3782E1AC17ABA514D8C05F33",
+          "url": "http://127.0.0.1:60119/crm.js",
+          "type": "Script"
+        },
+        {
+          "dt": 63,
+          "method": "Network.requestWillBeSent",
+          "requestId": "28544.7",
+          "loaderId": "C7F13A2E3782E1AC17ABA514D8C05F33",
+          "url": "http://127.0.0.1:60119/arm.js",
+          "type": "Script"
+        },
+        {
+          "dt": 63,
+          "method": "Network.requestWillBeSent",
+          "requestId": "28544.8",
+          "loaderId": "C7F13A2E3782E1AC17ABA514D8C05F33",
+          "url": "http://127.0.0.1:60119/auth.js",
+          "type": "Script"
+        },
+        {
+          "dt": 63,
+          "method": "Network.requestWillBeSent",
+          "requestId": "28544.9",
+          "loaderId": "C7F13A2E3782E1AC17ABA514D8C05F33",
+          "url": "http://127.0.0.1:60119/palette.js",
+          "type": "Script"
+        },
+        {
+          "dt": 63,
+          "method": "Network.requestWillBeSent",
+          "requestId": "28544.10",
+          "loaderId": "C7F13A2E3782E1AC17ABA514D8C05F33",
+          "url": "http://127.0.0.1:60119/turnos.js",
+          "type": "Script"
+        },
+        {
+          "dt": 63,
+          "method": "Network.responseReceived",
+          "requestId": "28544.6",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/crm.js",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 63,
+          "method": "Network.responseReceived",
+          "requestId": "28544.8",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/auth.js",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 63,
+          "method": "Network.responseReceived",
+          "requestId": "28544.7",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/arm.js",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 63,
+          "method": "Network.requestWillBeSent",
+          "requestId": "28544.11",
+          "loaderId": "C7F13A2E3782E1AC17ABA514D8C05F33",
+          "url": "http://127.0.0.1:60119/automations.js",
+          "type": "Script"
+        },
+        {
+          "dt": 63,
+          "method": "Network.responseReceived",
+          "requestId": "28544.9",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/palette.js",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 65,
+          "method": "Network.responseReceived",
+          "requestId": "28544.10",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/turnos.js",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 68,
+          "method": "Network.responseReceived",
+          "requestId": "28544.11",
+          "status": 200,
+          "url": "http://127.0.0.1:60119/automations.js",
+          "remoteIPAddress": "127.0.0.1"
+        },
+        {
+          "dt": 73,
+          "method": "Page.lifecycleEvent",
+          "frameId": "4FD0BE505169A600E68042C4373F0982",
+          "loaderId": "C7F13A2E3782E1AC17ABA514D8C05F33",
+          "name": "DOMContentLoaded"
+        },
+        {
+          "dt": 74,
+          "method": "Page.lifecycleEvent",
+          "frameId": "4FD0BE505169A600E68042C4373F0982",
+          "loaderId": "C7F13A2E3782E1AC17ABA514D8C05F33",
+          "name": "load"
+        },
+        {
+          "dt": 93,
+          "method": "Page.frameStoppedLoading",
+          "frameId": "4FD0BE505169A600E68042C4373F0982"
+        },
+        {
+          "dt": 94,
+          "method": "Page.lifecycleEvent",
+          "frameId": "4FD0BE505169A600E68042C4373F0982",
+          "loaderId": "C7F13A2E3782E1AC17ABA514D8C05F33",
+          "name": "firstMeaningfulPaintCandidate"
+        },
+        {
+          "dt": 94,
+          "method": "Page.lifecycleEvent",
+          "frameId": "4FD0BE505169A600E68042C4373F0982",
+          "loaderId": "C7F13A2E3782E1AC17ABA514D8C05F33",
+          "name": "firstPaint"
+        },
+        {
+          "dt": 105,
+          "method": "Page.lifecycleEvent",
+          "frameId": "4FD0BE505169A600E68042C4373F0982",
+          "loaderId": "C7F13A2E3782E1AC17ABA514D8C05F33",
+          "name": "firstMeaningfulPaintCandidate"
+        },
+        {
+          "dt": 105,
+          "method": "Page.lifecycleEvent",
+          "frameId": "4FD0BE505169A600E68042C4373F0982",
+          "loaderId": "C7F13A2E3782E1AC17ABA514D8C05F33",
+          "name": "firstContentfulPaint"
+        }
+      ],
+      "serverHits": [
+        {
+          "dt": 35,
+          "method": "GET",
+          "path": "/index.html",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 43,
+          "method": "GET",
+          "path": "/style.css",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 45,
+          "method": "GET",
+          "path": "/app.js",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 54,
+          "method": "GET",
+          "path": "/crm.js",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 56,
+          "method": "GET",
+          "path": "/arm.js",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 58,
+          "method": "GET",
+          "path": "/auth.js",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 60,
+          "method": "GET",
+          "path": "/palette.js",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 61,
+          "method": "GET",
+          "path": "/turnos.js",
+          "status": 200,
+          "remote": "127.0.0.1"
+        },
+        {
+          "dt": 63,
+          "method": "GET",
+          "path": "/automations.js",
+          "status": 200,
+          "remote": "127.0.0.1"
+        }
+      ]
+    },
+    "D_fourTabs_createTargetFinalUrl": {
+      "tabs": [
+        {
+          "label": "pantalla-turnos",
+          "url": "http://127.0.0.1:60119/index.html#pantalla-turnos",
+          "targetId": "991EDB3DD5DF26771DB94E8B788A45B4",
+          "sessionId": "D81AE6D5B57BDE6455EB5A58A56D2E7B",
+          "navigate": null,
+          "result": {
+            "ok": true,
+            "state": {
+              "href": "http://127.0.0.1:60119/index.html#pantalla-turnos",
+              "origin": "http://127.0.0.1:60119",
+              "pathname": "/index.html",
+              "hash": "#pantalla-turnos",
+              "readyState": "complete",
+              "appReady": true
+            },
+            "waitedMs": 63
+          },
+          "loadingFailed": [],
+          "serverHits": 9
+        },
+        {
+          "label": "autoservicio",
+          "url": "http://127.0.0.1:60119/index.html#autoservicio",
+          "targetId": "56C78966FC8892BDF97B871C0EDA6D2F",
+          "sessionId": "08C55C7FB7F44F3BFD4C8CFA22AFB4A5",
+          "navigate": null,
+          "result": {
+            "ok": true,
+            "state": {
+              "href": "http://127.0.0.1:60119/index.html#autoservicio",
+              "origin": "http://127.0.0.1:60119",
+              "pathname": "/index.html",
+              "hash": "#autoservicio",
+              "readyState": "complete",
+              "appReady": true
+            },
+            "waitedMs": 61
+          },
+          "loadingFailed": [],
+          "serverHits": 9
+        },
+        {
+          "label": "recepcion",
+          "url": "http://127.0.0.1:60119/index.html",
+          "targetId": "C911B13579E289167C0B916785CC16AD",
+          "sessionId": "A7C65F65C62F6E04134B5847A321A45D",
+          "navigate": null,
+          "result": {
+            "ok": true,
+            "state": {
+              "href": "http://127.0.0.1:60119/index.html",
+              "origin": "http://127.0.0.1:60119",
+              "pathname": "/index.html",
+              "hash": "",
+              "readyState": "complete",
+              "appReady": true
+            },
+            "waitedMs": 55
+          },
+          "loadingFailed": [],
+          "serverHits": 9
+        },
+        {
+          "label": "caja",
+          "url": "http://127.0.0.1:60119/index.html",
+          "targetId": "51F667F0BF955D18C9FCCA74F71D8E88",
+          "sessionId": "53694A5D3DC06B6F640CFC0A114F6F9C",
+          "navigate": null,
+          "result": {
+            "ok": true,
+            "state": {
+              "href": "http://127.0.0.1:60119/index.html",
+              "origin": "http://127.0.0.1:60119",
+              "pathname": "/index.html",
+              "hash": "",
+              "readyState": "complete",
+              "appReady": true
+            },
+            "waitedMs": 53
+          },
+          "loadingFailed": [],
+          "serverHits": 9
+        }
+      ],
+      "sameOrigin": true,
+      "origins": [
+        "http://127.0.0.1:60119",
+        "http://127.0.0.1:60119",
+        "http://127.0.0.1:60119",
+        "http://127.0.0.1:60119"
+      ]
+    },
+    "D_fourTabs_blankThenNavigate": {
+      "tabs": [
+        {
+          "label": "pantalla-turnos",
+          "url": "http://127.0.0.1:60119/index.html#pantalla-turnos",
+          "targetId": "48A82E8CE542543B4A2B604F9555C203",
+          "sessionId": "52C6A7548A1B7C40ABA65B1343B747BE",
+          "navigate": {
+            "frameId": "48A82E8CE542543B4A2B604F9555C203",
+            "loaderId": "9524A05807AC2425E3F75D5093E3F128",
+            "isDownload": false
+          },
+          "result": {
+            "ok": true,
+            "state": {
+              "href": "http://127.0.0.1:60119/index.html#pantalla-turnos",
+              "origin": "http://127.0.0.1:60119",
+              "pathname": "/index.html",
+              "hash": "#pantalla-turnos",
+              "readyState": "complete",
+              "appReady": true
+            },
+            "waitedMs": 70
+          },
+          "loadingFailed": [],
+          "serverHits": 9
+        },
+        {
+          "label": "autoservicio",
+          "url": "http://127.0.0.1:60119/index.html#autoservicio",
+          "targetId": "989A7F2E269D21CDDFE920581EAB9F08",
+          "sessionId": "829A63C00517A6345C5DE94BE8C0E7CA",
+          "navigate": {
+            "frameId": "989A7F2E269D21CDDFE920581EAB9F08",
+            "loaderId": "2C1E887ACCECBC3F7E772EA081F5B7F9",
+            "isDownload": false
+          },
+          "result": {
+            "ok": true,
+            "state": {
+              "href": "http://127.0.0.1:60119/index.html#autoservicio",
+              "origin": "http://127.0.0.1:60119",
+              "pathname": "/index.html",
+              "hash": "#autoservicio",
+              "readyState": "complete",
+              "appReady": true
+            },
+            "waitedMs": 64
+          },
+          "loadingFailed": [],
+          "serverHits": 9
+        },
+        {
+          "label": "recepcion",
+          "url": "http://127.0.0.1:60119/index.html",
+          "targetId": "94A7FCFDCE1D67709B8EE9CA02B56F70",
+          "sessionId": "1796D5AE593C94D92DF8CF74C4646CDA",
+          "navigate": {
+            "frameId": "94A7FCFDCE1D67709B8EE9CA02B56F70",
+            "loaderId": "5A96A3F3CDA00BBA4C125FF3F53BD99C",
+            "isDownload": false
+          },
+          "result": {
+            "ok": true,
+            "state": {
+              "href": "http://127.0.0.1:60119/index.html",
+              "origin": "http://127.0.0.1:60119",
+              "pathname": "/index.html",
+              "hash": "",
+              "readyState": "complete",
+              "appReady": true
+            },
+            "waitedMs": 62
+          },
+          "loadingFailed": [],
+          "serverHits": 9
+        },
+        {
+          "label": "caja",
+          "url": "http://127.0.0.1:60119/index.html",
+          "targetId": "295330DB3F06161205531F34DDA352EE",
+          "sessionId": "21DD9A48599A051B9970F2310A89926E",
+          "navigate": {
+            "frameId": "295330DB3F06161205531F34DDA352EE",
+            "loaderId": "FBBECCC599C54D460864795194EF94BF",
+            "isDownload": false
+          },
+          "result": {
+            "ok": true,
+            "state": {
+              "href": "http://127.0.0.1:60119/index.html",
+              "origin": "http://127.0.0.1:60119",
+              "pathname": "/index.html",
+              "hash": "",
+              "readyState": "complete",
+              "appReady": true
+            },
+            "waitedMs": 65
+          },
+          "loadingFailed": [],
+          "serverHits": 9
+        }
+      ],
+      "sameOrigin": true,
+      "origins": [
+        "http://127.0.0.1:60119",
+        "http://127.0.0.1:60119",
+        "http://127.0.0.1:60119",
+        "http://127.0.0.1:60119"
+      ]
+    }
+  },
+  "targetEvents": [
+    {
+      "method": "Target.targetCreated",
+      "targetId": "917FE72EB03330E1B334D4EC916AC4BE",
+      "type": "page",
+      "url": "about:blank",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetCreated",
+      "targetId": "BF2C117985D12F39EF42BE749B9A1B46",
+      "type": "browser_ui",
+      "url": "chrome://omnibox-popup.top-chrome/",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "917FE72EB03330E1B334D4EC916AC4BE",
+      "type": "page",
+      "url": "about:blank",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetCreated",
+      "targetId": "7CDAF6DC2B29B7E927226EBB038777FE",
+      "type": "service_worker",
+      "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/thunk.js",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "917FE72EB03330E1B334D4EC916AC4BE",
+      "type": "page",
+      "url": "about:blank",
+      "attached": true,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.attachedToTarget",
+      "sessionId": "EA4E1C2EFEA50D66DA00D38916C45A7A",
+      "targetId": "917FE72EB03330E1B334D4EC916AC4BE",
+      "waitingForDebugger": false
+    },
+    {
+      "method": "Target.targetCreated",
+      "targetId": "8C0BA928AF0E56A92ADFB5B9C36B66EB",
+      "type": "service_worker",
+      "url": "chrome-extension://admccjkmockfdflocgggjfgdacdodkdf/background.js",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetCreated",
+      "targetId": "D830BAEAEFDACE492764CFB22A299F93",
+      "type": "service_worker",
+      "url": "chrome-extension://fignfifoniblkonapihmkfakmlgkbkcf/service_worker.js",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "917FE72EB03330E1B334D4EC916AC4BE",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html",
+      "attached": true,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetCreated",
+      "targetId": "9776203FF69FE6B8EC475AEC62F8372F",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html#pantalla-turnos",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "9776203FF69FE6B8EC475AEC62F8372F",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html#pantalla-turnos",
+      "attached": true,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.attachedToTarget",
+      "sessionId": "7649AF79D4514F272BBB93E60A846189",
+      "targetId": "9776203FF69FE6B8EC475AEC62F8372F",
+      "waitingForDebugger": false
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "9776203FF69FE6B8EC475AEC62F8372F",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html#pantalla-turnos",
+      "attached": true,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetCreated",
+      "targetId": "4FD0BE505169A600E68042C4373F0982",
+      "type": "page",
+      "url": "about:blank",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "9776203FF69FE6B8EC475AEC62F8372F",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html#pantalla-turnos",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.detachedFromTarget",
+      "sessionId": "7649AF79D4514F272BBB93E60A846189",
+      "targetId": "9776203FF69FE6B8EC475AEC62F8372F"
+    },
+    {
+      "method": "Target.targetDestroyed",
+      "targetId": "9776203FF69FE6B8EC475AEC62F8372F"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "4FD0BE505169A600E68042C4373F0982",
+      "type": "page",
+      "url": "about:blank",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "4FD0BE505169A600E68042C4373F0982",
+      "type": "page",
+      "url": "about:blank",
+      "attached": true,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.attachedToTarget",
+      "sessionId": "B0448E7BFCD4D6917A8D12360129FAA6",
+      "targetId": "4FD0BE505169A600E68042C4373F0982",
+      "waitingForDebugger": false
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "4FD0BE505169A600E68042C4373F0982",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html#pantalla-turnos",
+      "attached": true,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetCreated",
+      "targetId": "991EDB3DD5DF26771DB94E8B788A45B4",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html#pantalla-turnos",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "4FD0BE505169A600E68042C4373F0982",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html#pantalla-turnos",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.detachedFromTarget",
+      "sessionId": "B0448E7BFCD4D6917A8D12360129FAA6",
+      "targetId": "4FD0BE505169A600E68042C4373F0982"
+    },
+    {
+      "method": "Target.targetDestroyed",
+      "targetId": "4FD0BE505169A600E68042C4373F0982"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "991EDB3DD5DF26771DB94E8B788A45B4",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html#pantalla-turnos",
+      "attached": true,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.attachedToTarget",
+      "sessionId": "D81AE6D5B57BDE6455EB5A58A56D2E7B",
+      "targetId": "991EDB3DD5DF26771DB94E8B788A45B4",
+      "waitingForDebugger": false
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "991EDB3DD5DF26771DB94E8B788A45B4",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html#pantalla-turnos",
+      "attached": true,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetCreated",
+      "targetId": "56C78966FC8892BDF97B871C0EDA6D2F",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html#autoservicio",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "56C78966FC8892BDF97B871C0EDA6D2F",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html#autoservicio",
+      "attached": true,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.attachedToTarget",
+      "sessionId": "08C55C7FB7F44F3BFD4C8CFA22AFB4A5",
+      "targetId": "56C78966FC8892BDF97B871C0EDA6D2F",
+      "waitingForDebugger": false
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "56C78966FC8892BDF97B871C0EDA6D2F",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html#autoservicio",
+      "attached": true,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetCreated",
+      "targetId": "C911B13579E289167C0B916785CC16AD",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "C911B13579E289167C0B916785CC16AD",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html",
+      "attached": true,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.attachedToTarget",
+      "sessionId": "A7C65F65C62F6E04134B5847A321A45D",
+      "targetId": "C911B13579E289167C0B916785CC16AD",
+      "waitingForDebugger": false
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "C911B13579E289167C0B916785CC16AD",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html",
+      "attached": true,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetCreated",
+      "targetId": "51F667F0BF955D18C9FCCA74F71D8E88",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "51F667F0BF955D18C9FCCA74F71D8E88",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html",
+      "attached": true,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.attachedToTarget",
+      "sessionId": "53694A5D3DC06B6F640CFC0A114F6F9C",
+      "targetId": "51F667F0BF955D18C9FCCA74F71D8E88",
+      "waitingForDebugger": false
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "51F667F0BF955D18C9FCCA74F71D8E88",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html",
+      "attached": true,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "991EDB3DD5DF26771DB94E8B788A45B4",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html#pantalla-turnos",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.detachedFromTarget",
+      "sessionId": "D81AE6D5B57BDE6455EB5A58A56D2E7B",
+      "targetId": "991EDB3DD5DF26771DB94E8B788A45B4"
+    },
+    {
+      "method": "Target.targetDestroyed",
+      "targetId": "991EDB3DD5DF26771DB94E8B788A45B4"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "56C78966FC8892BDF97B871C0EDA6D2F",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html#autoservicio",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.detachedFromTarget",
+      "sessionId": "08C55C7FB7F44F3BFD4C8CFA22AFB4A5",
+      "targetId": "56C78966FC8892BDF97B871C0EDA6D2F"
+    },
+    {
+      "method": "Target.targetDestroyed",
+      "targetId": "56C78966FC8892BDF97B871C0EDA6D2F"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "C911B13579E289167C0B916785CC16AD",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.detachedFromTarget",
+      "sessionId": "A7C65F65C62F6E04134B5847A321A45D",
+      "targetId": "C911B13579E289167C0B916785CC16AD"
+    },
+    {
+      "method": "Target.targetDestroyed",
+      "targetId": "C911B13579E289167C0B916785CC16AD"
+    },
+    {
+      "method": "Target.targetCreated",
+      "targetId": "48A82E8CE542543B4A2B604F9555C203",
+      "type": "page",
+      "url": "about:blank",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "51F667F0BF955D18C9FCCA74F71D8E88",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.detachedFromTarget",
+      "sessionId": "53694A5D3DC06B6F640CFC0A114F6F9C",
+      "targetId": "51F667F0BF955D18C9FCCA74F71D8E88"
+    },
+    {
+      "method": "Target.targetDestroyed",
+      "targetId": "51F667F0BF955D18C9FCCA74F71D8E88"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "48A82E8CE542543B4A2B604F9555C203",
+      "type": "page",
+      "url": "about:blank",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "48A82E8CE542543B4A2B604F9555C203",
+      "type": "page",
+      "url": "about:blank",
+      "attached": true,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.attachedToTarget",
+      "sessionId": "52C6A7548A1B7C40ABA65B1343B747BE",
+      "targetId": "48A82E8CE542543B4A2B604F9555C203",
+      "waitingForDebugger": false
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "48A82E8CE542543B4A2B604F9555C203",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html#pantalla-turnos",
+      "attached": true,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetCreated",
+      "targetId": "989A7F2E269D21CDDFE920581EAB9F08",
+      "type": "page",
+      "url": "about:blank",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "989A7F2E269D21CDDFE920581EAB9F08",
+      "type": "page",
+      "url": "about:blank",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "989A7F2E269D21CDDFE920581EAB9F08",
+      "type": "page",
+      "url": "about:blank",
+      "attached": true,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.attachedToTarget",
+      "sessionId": "829A63C00517A6345C5DE94BE8C0E7CA",
+      "targetId": "989A7F2E269D21CDDFE920581EAB9F08",
+      "waitingForDebugger": false
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "989A7F2E269D21CDDFE920581EAB9F08",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html#autoservicio",
+      "attached": true,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetCreated",
+      "targetId": "94A7FCFDCE1D67709B8EE9CA02B56F70",
+      "type": "page",
+      "url": "about:blank",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "94A7FCFDCE1D67709B8EE9CA02B56F70",
+      "type": "page",
+      "url": "about:blank",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "94A7FCFDCE1D67709B8EE9CA02B56F70",
+      "type": "page",
+      "url": "about:blank",
+      "attached": true,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.attachedToTarget",
+      "sessionId": "1796D5AE593C94D92DF8CF74C4646CDA",
+      "targetId": "94A7FCFDCE1D67709B8EE9CA02B56F70",
+      "waitingForDebugger": false
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "94A7FCFDCE1D67709B8EE9CA02B56F70",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html",
+      "attached": true,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetCreated",
+      "targetId": "295330DB3F06161205531F34DDA352EE",
+      "type": "page",
+      "url": "about:blank",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "295330DB3F06161205531F34DDA352EE",
+      "type": "page",
+      "url": "about:blank",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "295330DB3F06161205531F34DDA352EE",
+      "type": "page",
+      "url": "about:blank",
+      "attached": true,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.attachedToTarget",
+      "sessionId": "21DD9A48599A051B9970F2310A89926E",
+      "targetId": "295330DB3F06161205531F34DDA352EE",
+      "waitingForDebugger": false
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "295330DB3F06161205531F34DDA352EE",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html",
+      "attached": true,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "48A82E8CE542543B4A2B604F9555C203",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html#pantalla-turnos",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.detachedFromTarget",
+      "sessionId": "52C6A7548A1B7C40ABA65B1343B747BE",
+      "targetId": "48A82E8CE542543B4A2B604F9555C203"
+    },
+    {
+      "method": "Target.targetDestroyed",
+      "targetId": "48A82E8CE542543B4A2B604F9555C203"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "989A7F2E269D21CDDFE920581EAB9F08",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html#autoservicio",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.detachedFromTarget",
+      "sessionId": "829A63C00517A6345C5DE94BE8C0E7CA",
+      "targetId": "989A7F2E269D21CDDFE920581EAB9F08"
+    },
+    {
+      "method": "Target.targetDestroyed",
+      "targetId": "989A7F2E269D21CDDFE920581EAB9F08"
+    },
+    {
+      "method": "Target.targetInfoChanged",
+      "targetId": "94A7FCFDCE1D67709B8EE9CA02B56F70",
+      "type": "page",
+      "url": "http://127.0.0.1:60119/index.html",
+      "attached": false,
+      "browserContextId": "7F5D8D1E8DB8F33101CE188A341DC61D"
+    },
+    {
+      "method": "Target.detachedFromTarget",
+      "sessionId": "1796D5AE593C94D92DF8CF74C4646CDA",
+      "targetId": "94A7FCFDCE1D67709B8EE9CA02B56F70"
+    },
+    {
+      "method": "Target.targetDestroyed",
+      "targetId": "94A7FCFDCE1D67709B8EE9CA02B56F70"
+    }
+  ],
+  "serverLogTotal": 101,
+  "serverStillListening": true
+}

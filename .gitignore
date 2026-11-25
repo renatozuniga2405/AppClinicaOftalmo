@@ -1,0 +1,16 @@
+# Dependencias
+node_modules/
+package-lock.json
+
+# Builds y temporales
+.codex-document-build/
+.codex-presentation-build/
+scratch/
+*.log
+
+# Videos y renders pesados
+output/demo-video/
+
+# Sistema
+.DS_Store
+Thumbs.db

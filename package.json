@@ -1,0 +1,13 @@
+{
+  "name": "clinica-oftalmologica-prototipo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "check": "node --check app/app.js && node --check app/dashboard.js && node --check app/auth.js && node --check app/crm.js && node --check app/automations.js && node --check app/arm.js && node --check app/palette.js && node --check app/turnos.js && node --check app/motion.js && node --check server.mjs",
+    "test:static": "node test_static_checks.mjs",
+    "test:unit": "node test_roles.mjs && node test_dashboard.mjs",
+    "test:browser": "node test_browser_functional.mjs",
+    "test": "node run_all_tests.mjs"
+  }
+}
